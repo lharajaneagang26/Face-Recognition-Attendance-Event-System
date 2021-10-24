@@ -170,6 +170,7 @@ namespace Face_Recognition_Attendance_Event_System
             this.Controls.Add(this.panel3);
             this.Name = "Form3";
             this.Text = "FaceRecognitionSystem";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);

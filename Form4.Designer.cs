@@ -38,10 +38,9 @@ namespace Face_Recognition_Attendance_Event_System
             this.button3.BackColor = System.Drawing.Color.DarkGreen;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(86, 63);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(463, 98);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 40);
+            this.button3.Size = new System.Drawing.Size(201, 62);
             this.button3.TabIndex = 14;
             this.button3.Text = "Register";
             this.button3.UseVisualStyleBackColor = false;
@@ -51,21 +50,21 @@ namespace Face_Recognition_Attendance_Event_System
             this.button1.BackColor = System.Drawing.Color.DarkGreen;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(86, 117);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(463, 181);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 40);
+            this.button1.Size = new System.Drawing.Size(201, 62);
             this.button1.TabIndex = 15;
             this.button1.Text = "Log Out";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form4";
             this.Text = "Admin";
             this.ResumeLayout(false);

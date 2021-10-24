@@ -16,5 +16,10 @@ namespace Face_Recognition_Attendance_Event_System
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
